@@ -5,6 +5,3 @@ read -rep "Enter your AWS secretkey: /n" secretKey
 
 export AWS_ACCESS_KEY_ID=$accessKey
 export AWS_SECRET_ACCESS_KEY=$secretKey
-
-# create IAM user, group and roles
-read -rep "Enter your AWS user: /n" user
